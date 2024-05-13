@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import Logo from "../assets/images/Logo.png";
 
 function header() {
@@ -7,13 +8,33 @@ function header() {
         <div className="logo">
           <img src={Logo} alt="logo" className="img-fluid" />
         </div>
-        <div >
+        <div>
           <ul className="d-flex">
-            <li className="list">Discover Welmont</li>
-            <li className="list">Programs </li>
-            <li className="list">Facilities</li>
-            <li className="list">About us</li>
-            <li className="list">Blog</li>
+            <li className="list_1" >
+              <a href="#" className="text-black">
+                Discover Welmont
+              </a>
+            </li>
+            <li className="list_1">
+              <a  href="#" className="text-black">
+                Programs
+              </a>
+            </li>
+            <li className="list_1">
+              <a className="text-black" href="#" >
+                Facilities
+              </a>
+            </li>
+            <li className="list_1">
+              <a  href="#" className="text-black">
+                About us
+              </a>
+            </li>
+            <li className="list_1">
+              <a className="text-black" href="#">
+                Blog
+              </a>
+            </li>
           </ul>
         </div>
         <div>

@@ -10,7 +10,10 @@ import Layer_23 from "./Layer 23.png";
 import Layer_24 from "./Layer 24.png";
 import Layer_25 from "./Layer 25.png";
 import Vector_2 from "./Vector2.png";
-import Vector_smart_5 from "./Vector Smart Object5.png"
+import Vector_smart_5 from "./Vector Smart Object5.png";
+import Vector_6 from "./Vector6.png";
+import Vector_5 from "./Vector5.png"
+
 
 const images ={
     bird,
@@ -25,7 +28,9 @@ const images ={
     Layer_24,
     Layer_25,
     Vector_2,
-    Vector_smart_5
+    Vector_smart_5,
+    Vector_5,
+    Vector_6
 }
 
 export default images;

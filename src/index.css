@@ -60,32 +60,32 @@ a {
 
 /* main*/
 
-.design {
+.home-section .design {
   width: 150px;
   position: absolute;
   top: 40px;
   right: 0;
 }
 
-.vector {
+.home-section .vector {
   left: 161px;
   position: absolute;
   top: 145px;
 }
-.poster {
+.home-section .poster {
   width: 500px;
 }
-.layer {
+.home-section .layer {
   margin-top: 435px;
 }
-.bird .content {
+.home-section .bird .content {
   position: absolute;
   right: -65px;
   bottom: 171px;
   line-height: 45px;
 }
 
-.bird .content .nurturing {
+.home-section .bird .content .nurturing {
   color: #e63946;
   font-family: "arial";
   font-size: 32px;
@@ -93,7 +93,7 @@ a {
   font-weight: bold;
   transform: rotate(-10deg);
 }
-.bird .content .Little {
+.home-section .bird .content .Little {
   color: #e63946;
   font-family: "arial";
   font-size: 32px;
@@ -102,7 +102,7 @@ a {
   line-height: 40px;
 }
 
-.bird .content .champs {
+.home-section .bird .content .champs {
   color: #e63946;
   font-family: "arial";
   font-size: 32px;
@@ -110,18 +110,16 @@ a {
   font-weight: bold;
   transform: rotate(10deg);
 }
-.main-sec .layer_down1 {
+.home-section .main-sec .layer_down1 {
   width: 69px;
   position: absolute;
   bottom: 40px;
-
 }
 
-.main-sec .layer_down2 {
+.home-section .main-sec .layer_down2 {
   width: 70px;
   position: absolute;
   bottom: -70px;
-
 }
 
 /* section-2 */
@@ -149,6 +147,14 @@ a {
   transform: translate(-50%, -50%) rotate(45deg);
   border-radius: 50% / 65% 65% 30% 30%;
   z-index: -1;
+}
+
+.title-box-2 .sub-title {
+  font-size: 7.366px;
+  font-family: "Adobe Garamond Pro";
+  color: rgb(239, 91, 113);
+  line-height: 0.8;
+  text-align: center;
 }
 .welcome-section {
   padding-top: 45px;

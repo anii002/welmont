@@ -6,7 +6,7 @@ const home = () => {
   return (
     <div>
       {/* first sect */}
-      <div className="col-lg-12">
+      <div className="home-section">
         <div className="design">
           <img
             src={images.vector_smart3}
@@ -57,52 +57,93 @@ const home = () => {
         <div className="d-flex flex-wrap align-items-center">
           <div className="col-md-6 left-box">
             <div className="mb-4">
-              <p>Welcome to Welmont Preschool, where each new day 
-                heralds a journey of exploration with fun & play.</p>
+              <p>
+                Welcome to Welmont Preschool, where each new day heralds a
+                journey of exploration with fun & play.
+              </p>
 
-              <p>We, at Welmont, understand the crucial importance of the correct stimulation required during the early years to 
-                enhance a child's development intellectually, physically,
-                emotionally and socially, to lay down a solid foundation for your child to maximize all future learning abilities.</p>
+              <p>
+                We, at Welmont, understand the crucial importance of the correct
+                stimulation required during the early years to enhance a child's
+                development intellectually, physically, emotionally and
+                socially, to lay down a solid foundation for your child to
+                maximize all future learning abilities.
+              </p>
 
-              <p>As per UNICEF, a child's brain develops fastest in the earliest years of life. These initial experiences are crucial as they 
-                are the building blocks for the development of the brain 
-                architecture for all the learning to come in the years ahead.</p>
+              <p>
+                As per UNICEF, a child's brain develops fastest in the earliest
+                years of life. These initial experiences are crucial as they are
+                the building blocks for the development of the brain
+                architecture for all the learning to come in the years ahead.
+              </p>
             </div>
-            <a href="#" className="theme-btn">Read More</a>
+            <a href="#" className="theme-btn">
+              Read More
+            </a>
           </div>
           <div className="col-md-6 right-box">
             <div>
-              <p>In the ftrst few years of life,
-                more than one million neural 
-                connections are formed each 
-                second in the earliest phase of 
-                life– a pace that never
-                repeats ever again.
+              <p>
+                In the ftrst few years of life, more than one million neural
+                connections are formed each second in the earliest phase of
+                life– a pace that never repeats ever again.
                 <span>
-                UNICEF’s Global Report on
-                Early Childhood Development, 2017
+                  UNICEF’s Global Report on Early Childhood Development, 2017
                 </span>
               </p>
-              </div>
+            </div>
           </div>
         </div>
       </div>
 
       <div>
         <div className="title-box">
-          <h2 className="title">METAMORPHOSIS OF CHILD:<br /> THE PHILOSOPHY OF tWELMONT</h2>
+          <h2 className="title">
+            METAMORPHOSIS OF CHILD:
+            <br /> THE PHILOSOPHY OF tWELMONT
+          </h2>
+        </div>
+        <div className="container title-img d-flex p-5 gap-5">
+          <div>
+            <img src={images.Vector_6} alt="img" className="img-fluid" />
+          </div>
+          <div>
+            <img src={images.Vector_5} alt="img" className="img-fluid" />
+          </div>
+        </div>
+
+        <div className="d-flex justify-content-around  title-box-2 px-5 py-5">
+          <div className="sub-title">
+            <h4 >
+              THE BRAIN <br /> the essence of child
+            </h4>
+          </div>
+          <div className="sub-title">
+            <h4>
+              THE WINGS <br />
+              Environment of learning
+            </h4>
+          </div>
+          <div className="sub-title">
+            <h4>
+              METAMORPHOSIS <br/> the transformation of child
+            </h4>
+          </div>
         </div>
       </div>
 
       <div className="learn-section">
         <div className="learn-box">
-          <h3>Children learn as they play.
-            Most importantly, in play,
-            children learn how to learn.</h3>
-            <p>- O. FRED DONALDSON <br/>
-              Internationally recognised<br/>
-              play specialist
-            </p>
+          <h3>
+            Children learn as they play. Most importantly, in play, children
+            learn how to learn.
+          </h3>
+          <p>
+            - O. FRED DONALDSON <br />
+            Internationally recognised
+            <br />
+            play specialist
+          </p>
         </div>
       </div>
     </div>
